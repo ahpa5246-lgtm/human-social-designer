@@ -1,180 +1,178 @@
 # Design Philosophy
 
-This reference defines the aesthetic and decision-making philosophy behind `human-social-designer`.
+`human-social-designer` is built around one belief:
 
-## 1. Design is a decision system
+> **A strong social poster is not a container for information. It is a visual argument.**
 
-A beautiful post is rarely beautiful because it contains more elements. It is beautiful because the designer made a sequence of correct decisions:
+## 1. Design is reduction
 
-- what to emphasize
-- what to hide
-- what to remove
-- what to enlarge
-- what to crop
-- what to align
-- what to leave empty
-- what emotional tone the image should carry
+The designer's highest-value decisions are often removals:
 
-The skill should therefore optimize for **decision quality**, not visual quantity.
+- what not to show
+- what not to write
+- what not to decorate
+- which fact can stay in the caption
+- which object is redundant
 
-## 2. A poster should have a thesis
+A finished poster should feel inevitable rather than accumulated.
 
-Every strong post should have one central statement.
+## 2. A poster needs a thesis
 
-Bad direction:
-
-> “AI workshop: add a robot, laptop, circuits, code, hologram, students, icons, gradient, gears.”
-
-Better direction:
-
-> “A student opens a simple notebook and a visual world of machine vision emerges from the page.”
-
-The second has a thesis. It is easier to remember and easier to design.
-
-## 3. One hero beats six supporting objects
-
-The strongest commercial and editorial posters often rely on one dominant object, person, gesture, or word.
-
-Supporting objects should be subordinate.
-
-If the eye cannot determine the hero in under one second, the composition probably needs simplification.
-
-## 4. Whitespace is active
-
-Whitespace is not unused space. It creates:
-
-- hierarchy
-- sophistication
-- anticipation
-- readability
-- confidence
-
-Do not fill empty areas simply because they are empty.
-
-## 5. Smart typography can become imagery
-
-Typography may:
-
-- break
-- stretch
-- overlap
-- disappear behind objects
-- form a container
-- become a surface
-- create negative space
-- behave as architecture
-
-But it must remain readable enough to serve communication.
-
-## 6. Visual metaphor should be immediate
-
-A metaphor is useful when a viewer can understand it quickly.
-
-Good:
-
-- broken box → breaking convention
-- chess move → strategy / decision
-- growing plant through concrete → resilience
-- magnifying glass revealing hidden data → discovery
+Every strong visual should be explainable in one sentence.
 
 Weak:
+> “An AI event with students, laptops, robots, icons and a city.”
 
-- multiple abstract symbols requiring a paragraph of explanation
+Strong:
+> “A monumental threshold opens onto a future that feels larger than the viewer.”
 
-If the metaphor cannot be understood without a design rationale, it may be too obscure for social media.
+The second is a visual thesis.
 
-## 7. Realistic does not mean photographic clutter
+## 3. One hero beats many explanations
 
-Photorealism can still be minimal.
+A strong poster usually has one dominant silhouette or visual relationship.
 
-A single realistic object on a controlled background often feels more premium than a fully populated scene.
+If the viewer cannot identify the focal point within one second, simplify.
 
-Use environmental storytelling only when the story itself is the point.
+## 4. Strange is useful when it is precise
 
-## 8. Human imperfection can improve credibility
+The user likes unusual visuals, but strangeness must communicate.
 
-Not every layout should be perfectly centered or mathematically mirrored.
+Good strange:
+- clock as a head
+- blade as time
+- robotic hand disrupting chess
+- architecture acting as a threshold
 
-Editorial tension can come from:
+Bad strange:
+- arbitrary surreal objects with no message relationship
 
-- asymmetrical margins
-- cropped elements
-- uneven text scale
-- intentional overlap
-- one surprising placement
+Controlled surrealism = one impossible relationship, clearly staged.
 
-Controlled imperfection often makes work feel authored rather than templated.
+## 5. Negative space is content
 
-## 9. Color should organize attention
+Whitespace communicates confidence and directs attention.
 
-Use color as structure.
+Do not fill an area merely because it is empty.
 
-Ask:
+Empty space may:
+- frame the hero
+- hold the headline
+- increase scale perception
+- create tension
+- make the visual feel premium
 
-- Which color owns the background?
-- Which color marks the conceptual accent?
-- Which color carries the headline?
-- What should be neutral?
+## 6. Typography is image-making
 
-Do not distribute accent colors uniformly. Scarcity makes accents powerful.
+Typography can function as:
+- architecture
+- rhythm
+- silhouette
+- boundary
+- material
+- interaction
 
-## 10. The image should survive thumbnail size
+But it must remain readable and semantically useful.
 
-Social media is consumed quickly.
+## 7. Color is a world
 
-At thumbnail size:
+Do not color objects independently. Build an atmosphere.
 
-- hero should still read
-- headline should still have shape
-- contrast should still work
-- clutter should disappear rather than merge into noise
+A coherent palette affects:
+- background
+- material reflections
+- shadows
+- highlights
+- type
+- accents
 
-If the design only works when zoomed in, it is not finished.
+Color should make the image feel like one authored universe.
 
-## 11. Design should match message temperature
+## 8. Editorial tension > perfect symmetry
 
-Different topics demand different visual temperatures.
+Human-made design often uses controlled imbalance:
+- one large empty margin
+- cropped hero
+- off-center subject
+- uneven type scale
+- one unexpected alignment
+
+Do not confuse asymmetry with randomness.
+
+## 9. Premium does not mean glossy
+
+Premium may be:
+- matte
+- rough
+- architectural
+- restrained
+- monochrome
+- tactile
+- quiet
+
+Avoid assuming “premium” means gold + black + glow.
+
+## 10. The image should survive without text
+
+Remove the headline mentally.
+
+If the remaining image has no idea, the visual is too dependent on copy.
+
+The best posters have a visual concept first and typography that sharpens it.
+
+## 11. The poster should survive thumbnail size
+
+At feed size:
+- hero remains readable
+- headline remains a clear shape
+- color grouping remains simple
+- details merge gracefully rather than become noise
+
+## 12. Design temperature must match the message
 
 ### High energy
-Hackathons, launches, competitions
+Launches, hackathons, competitions:
 - bold scale
-- stronger contrast
-- directional movement
-- compressed copy
+- strong contrast
+- movement / threshold / impact
 
 ### Thoughtful
-Education, research, reflection
+Research, education, reflection:
 - more whitespace
-- editorial typography
+- calm rhythm
 - restrained palette
-- calmer visual rhythm
 
-### Human / emotional
-Community, animals, social impact
-- tactile imagery
-- warmer light
+### Human / social
+Community, animals, emotional topics:
+- tactile light
 - relational composition
-- softer secondary typography
+- human warmth
 
 ### Technical
-AI, robotics, engineering
+AI, robotics, engineering:
 - precision
-- controlled geometry
-- real technical references when possible
-- avoid generic sci-fi decoration
+- material credibility
+- conceptual framing
+- no generic sci-fi decoration
 
-## 12. Do not imitate references literally
+## 13. References are principles, not templates
 
-Reference images are used to extract principles:
-
+Study references for:
+- focal strategy
+- text-to-image ratio
 - hierarchy
-- color restraint
-- density
-- mood
-- type treatment
+- scale
+- negative space
+- visual tension
 - lighting
-- visual rhythm
+- palette discipline
 
-The skill should synthesize these principles into a new solution.
+Never copy identifiable compositions, logos, signatures, or artwork.
 
-It should never reproduce another designer's signature layout or identifiable artwork.
+## 14. The final question
+
+Before generation ask:
+
+> “Would this look like a designer made a decision — or like a model added more things?”
+
+If the answer is “added more things,” reduce.
