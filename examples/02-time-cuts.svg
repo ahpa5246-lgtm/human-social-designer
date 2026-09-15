@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <rect width="1200" height="1500" fill="#4d2a89"/>
+  <circle cx="590" cy="560" r="165" fill="#ffffff"/>
+  <circle cx="590" cy="560" r="145" fill="#efe7d9" stroke="#2a2147" stroke-width="12"/>
+  <line x1="590" y1="560" x2="590" y2="455" stroke="#2a2147" stroke-width="13"/>
+  <line x1="590" y1="560" x2="670" y2="600" stroke="#2a2147" stroke-width="13"/>
+  <circle cx="590" cy="560" r="15" fill="#2a2147"/>
+  <path d="M455 720 Q590 675 725 720 L805 1235 Q590 1325 375 1235 Z" fill="#6b46b8"/>
+  <path d="M450 800 L790 930" stroke="#d9d4e7" stroke-width="26" stroke-linecap="round"/>
+  <path d="M470 785 L1010 565" stroke="#d1d4dc" stroke-width="20" stroke-linecap="round"/>
+  <path d="M1005 552 L1135 500" stroke="#8c93a3" stroke-width="8"/>
+  <text x="90" y="140" fill="#ffffff" font-size="36" font-family="Arial, sans-serif" letter-spacing="6">EDITORIAL SURREALISM</text>
+  <text x="92" y="250" fill="#ffffff" font-size="92" font-family="Arial, sans-serif" font-weight="700">الوقت</text>
+  <text x="92" y="350" fill="#ffffff" font-size="92" font-family="Arial, sans-serif" font-weight="700">يقطع ما تؤجله</text>
+  <rect x="92" y="395" width="260" height="8" fill="#e8d74b"/>
+  <text x="890" y="1185" fill="#ede9f7" font-size="24" font-family="Arial, sans-serif" text-anchor="end" letter-spacing="4">ONE HERO</text>
+  <text x="890" y="1225" fill="#ede9f7" font-size="24" font-family="Arial, sans-serif" text-anchor="end" letter-spacing="4">ONE STRANGE RELATIONSHIP</text>
+  <text x="90" y="1390" fill="#e8d74b" font-size="24" font-family="Arial, sans-serif">02 / TIME CUTS</text>
+</svg>
