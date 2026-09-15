@@ -1,98 +1,119 @@
 # Quality Checklist
 
-Run this checklist before finalizing any image produced with `human-social-designer`.
+Run this silently before finalizing any image.
 
-## Message
+## A. Message
 
-- [ ] The post has one clear communication objective.
-- [ ] The visual concept supports the actual message.
-- [ ] The viewer can understand the core idea quickly.
-- [ ] Important factual information has not been distorted.
+- [ ] The brief has been reduced to one sentence.
+- [ ] The visual expresses the specific message, not just the topic category.
+- [ ] Essential factual content is preserved accurately.
+- [ ] Non-essential detail has been moved out of the image.
 
-## Concept
+## B. Concept
 
-- [ ] The idea can be described in one sentence.
-- [ ] The concept is stronger than a generic topic symbol.
-- [ ] The visual metaphor is understandable without a long explanation.
-- [ ] The design is not overloaded with multiple competing metaphors.
+- [ ] The concept can be described in one short sentence.
+- [ ] There is one metaphor / relationship, not several competing metaphors.
+- [ ] The visual is more specific than a generic symbol.
+- [ ] The concept still works if the headline disappears.
+- [ ] The idea feels intentional rather than merely decorative.
 
-## Hierarchy
+## C. Hero / silhouette
 
-- [ ] There is one obvious first read.
-- [ ] There is a clear second read.
-- [ ] Secondary information stays secondary.
-- [ ] The eye does not get trapped between equally loud elements.
+- [ ] One hero dominates instantly.
+- [ ] The hero remains readable at thumbnail size.
+- [ ] The composition has a memorable silhouette.
+- [ ] Supporting elements are clearly subordinate.
 
-## Typography
+## D. Information suppression
 
-- [ ] Arabic is readable and correctly formed.
-- [ ] The headline is concise enough for social use.
-- [ ] Type scale creates hierarchy.
-- [ ] Typography feels integrated with the composition.
-- [ ] There is no meaningless microtext.
-- [ ] The design avoids unnecessary font variety.
+- [ ] The headline is as short as it can reasonably be.
+- [ ] There is at most one short support line by default.
+- [ ] No unnecessary list / module / icon grid remains.
+- [ ] One additional element has been removed during final reduction.
 
-## Composition
+## E. Typography
 
-- [ ] The hero is identifiable in under one second.
+- [ ] Arabic is correctly formed and readable.
+- [ ] Line breaks follow meaning, not convenience.
+- [ ] One typographic behavior dominates.
+- [ ] Type integrates with negative space / object / crop.
+- [ ] There is no meaningless English microcopy.
+- [ ] There are not too many font personalities.
+
+## F. Composition
+
+- [ ] Reading order is HERO → HEADLINE → DETAIL → BRAND.
 - [ ] Negative space is intentional.
-- [ ] Alignment feels controlled.
+- [ ] No corner is filled just because it was empty.
 - [ ] Cropping feels deliberate.
-- [ ] The composition works at mobile-feed size.
-- [ ] Important content is not too close to unsafe edges.
+- [ ] Asymmetry feels controlled where used.
+- [ ] Safe margins are respected.
 
-## Color
+## G. One-world test
 
-- [ ] The palette is limited and purposeful.
-- [ ] Accent colors are used sparingly.
-- [ ] Headline and essential information have sufficient contrast.
-- [ ] Color reinforces the topic rather than distracting from it.
+- [ ] One lighting direction.
+- [ ] One perspective logic.
+- [ ] One shadow behavior.
+- [ ] One material language.
+- [ ] One coherent color atmosphere.
+- [ ] No asset looks pasted in from another visual universe.
 
-## Image quality
+## H. Color
 
-- [ ] Materials look believable where realism is intended.
-- [ ] Lighting direction is coherent.
-- [ ] Shadows ground objects properly.
-- [ ] Faces, hands, animals, products, and props do not contain obvious generation errors.
-- [ ] No accidental gibberish text appears in the image.
-- [ ] No unwanted watermark, signature, or fake brand mark appears.
+- [ ] One dominant family.
+- [ ] One secondary family.
+- [ ] One restrained accent.
+- [ ] Accent is scarce enough to matter.
+- [ ] Color hierarchy supports visual hierarchy.
 
-## Anti-generic check
+## I. Anti-AI test
 
-Ask whether the design contains any of these without a real reason:
-
-- [ ] generic robot head
+Check for unnecessary:
+- [ ] robot head
+- [ ] person + laptop
 - [ ] glowing brain
-- [ ] random circuit pattern
-- [ ] holographic interface
-- [ ] excessive purple/cyan neon
-- [ ] unnecessary glass cards
-- [ ] floating decorative spheres
-- [ ] random particles
-- [ ] huge pile of unrelated props
-- [ ] same centered template used for unrelated subjects
+- [ ] light bulb
+- [ ] holographic cards
+- [ ] random neon
+- [ ] floating icons
+- [ ] generic futuristic city
+- [ ] particles / sparks
+- [ ] symmetric piles
+- [ ] fake editorial microtext
+- [ ] decorative glassmorphism
 
-If yes, remove or justify them.
+If present, ask: **Does the concept genuinely require this?** If not, remove.
 
-## Brand
+## J. Grayscale test
 
-- [ ] Supplied brand colors are respected.
-- [ ] Logo proportions are preserved.
-- [ ] Logo is not oversized without reason.
-- [ ] The post feels related to the brand but not trapped in a repetitive template.
+Mentally remove color:
 
-## Final human-designer test
+- [ ] One dominant silhouette remains.
+- [ ] The eye still knows where to look.
+- [ ] The headline still has a clear shape.
+- [ ] Secondary elements remain subordinate.
 
-Before approval, ask:
+## K. Feed test
 
-> If I saw this in a strong designer's portfolio, would the composition look intentional?
+At phone-feed size:
 
-Then ask:
+- [ ] Hero is identifiable within one second.
+- [ ] Headline shape is readable.
+- [ ] The visual does not collapse into detail noise.
+- [ ] The image has enough distinction to stop scrolling.
 
-> Is there anything I added because I was afraid of empty space?
+## L. Human art-director test
 
-Then ask:
+Ask:
 
-> Could removing one element make this stronger?
+> “Would a senior designer plausibly defend every major decision here?”
 
-If yes, simplify before finalizing.
+Then:
+
+> “Did I add anything only because the image felt empty?”
+
+Then:
+
+> “Could removing one thing make it stronger?”
+
+If yes, simplify before generation.
