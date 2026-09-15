@@ -1,61 +1,78 @@
-# Prompt Cookbook
+# Prompt Cookbook — v3
 
-This file describes how to turn a resolved art direction into a strong image-generation instruction.
+This reference explains how to turn a resolved art direction into a strong image-generation instruction **without anchoring the model to repeated literal objects**.
 
-The goal is not to expose a prompt to the user by default. The goal is to help the skill internally construct better generation language.
+The skill should never copy an example object from this repository just because it exists here.
+
+## Core rule
+
+A good generation instruction describes **relationships, composition, material, hierarchy, atmosphere, and exclusions** — not a shopping list of topic-associated objects.
 
 ## Prompt anatomy
 
-A resolved generation instruction should usually contain these layers:
+A resolved internal generation instruction should usually contain:
 
 1. **format / medium**
-2. **single visual concept**
-3. **hero subject**
+2. **one-sentence visual concept**
+3. **one hero subject or scene**
 4. **composition / crop / focal point**
-5. **negative space / typography zone**
+5. **negative-space zone**
 6. **color atmosphere**
-7. **lighting / material**
+7. **lighting / material language**
 8. **typography behavior**
 9. **quality target**
-10. **explicit exclusions**
+10. **topic-specific exclusions**
 
-## Template
+## Neutral template
 
-> Create one premium [format] social poster. The concept is [one-sentence metaphor]. Use one unmistakable hero: [subject]. Compose it [framing/crop/position], leaving [negative-space zone] for a short [Arabic/English] headline. Use [dominant palette] with [secondary/accent]. Lighting is [direction/quality]. Materials feel [tactile/architectural/photographic/etc]. Typography should [behavior] and remain minimal. The result should feel like [editorial/cultural/conceptual advertising reference class], not a generic AI poster. Avoid [specific clichés].
+> Create one premium [format] social key visual. The concept is [single visual metaphor]. Use one unmistakable hero: [subject/scene]. Compose it [position/crop/scale], with intentional negative space in [zone] for a short headline. Use [dominant color family], [controlled secondary], and [restrained accent]. Lighting is [single coherent direction/quality]. Materials feel [tactile/architectural/photographic/sculptural/etc]. Typography should be minimal, integrated, and subordinate to the concept. The result should feel like premium editorial art direction / conceptual advertising, not a generic AI poster. Avoid [4–8 topic-specific clichés].
 
-## Example: hackathon / opportunity
+## Anti-enumeration rule
 
-Weak prompt:
+Do not convert source bullets into visual bullets.
 
-> Make a futuristic AI hackathon poster with students, laptops, icons, city, tracks, GitHub, Devpost and prizes.
+If the brief contains:
+- 6 tracks
+- 5 benefits
+- 4 requirements
+- 3 dates
+- 2 links
 
-Stronger internal direction:
+The generation instruction should still normally describe:
+- 1 concept
+- 1 hero
+- 1 headline
+- 0–1 micro-line
 
-> Create one premium 4:5 conceptual campaign poster about entering an AI hackathon as a threshold into a larger future. Use one monumental dark architectural portal as the hero, opening onto a luminous distant path and a single impossible vertical structure. Deep midnight navy world, restrained warm gold light, quiet teal reflections. Keep most of the left side as negative space. Use only the event title and one very short Arabic hook; no track list, no icon grid, no dense details. Cinematic architectural photography / high-end CGI hybrid, controlled realism, one light direction, strong silhouette. Avoid robots, laptops, holograms, neon startup graphics, floating UI, generic futuristic skyline clutter.
+The other facts remain outside the image unless the user explicitly requests an information poster.
 
-## Example: procrastination
+## Event brief transformation
 
-Weak prompt:
+Instead of prompting:
 
-> Make a productivity poster with a clock, checklist, laptop, coffee, sticky notes and phone.
+> Show the event title, students, team size, date, registration, GitHub, Devpost, certificate, tracks, prizes, CTA and a futuristic city.
 
-Stronger internal direction:
+Do this internally:
 
-> Create one bold surreal editorial poster about procrastination. One human figure in a monochrome violet suit sits calmly, but their head is replaced by a large vintage alarm clock; they hold a long blade across the shoulder like a ceremonial object. Flat saturated violet environment, very few props, strong silhouette, dramatic negative space, one short Arabic headline integrated beside the figure. Premium fashion-editorial lighting, strange but controlled. Avoid desk scenes, laptops, coffee, floating icons, checklists, visual clutter.
+> Identify what the event *means* emotionally or strategically, invent one metaphor for that meaning, and build a key visual around only that metaphor.
 
-## Example: learning from mistakes
+Do not use a portal, city, student group, robot, laptop, or light bulb automatically. Those are not defaults.
 
-> Create one quiet premium 4:5 editorial poster. A precise robotic hand holds a white chess knight above a board while a black king lies fallen in the foreground. Warm cream architectural space, deep blue typography, subtle teal accent, long shadows, generous empty upper-right area for the headline. The message is that error can be an intentional move in learning. Minimal copy. Avoid circuit graphics, robot faces, holograms, warning icons and generic tech decoration.
+## Topic-specific exclusions
 
-## Negative prompting principle
+Exclusions should be chosen from the brief, not copied mechanically.
 
-Exclusions should be topic-specific.
+Examples of exclusion categories:
+- obvious category stereotypes
+- redundant props
+- UI-like information cards
+- decorative technology symbols
+- excessive text
+- multiple focal points
+- duplicate metaphors
+- visual effects that do not change meaning
 
-Do not dump the same long negative list into every prompt.
-
-Choose the 4–8 clichés most likely to appear for that brief.
-
-## Quality language
+## Quality language that helps
 
 Useful:
 - premium editorial key visual
@@ -68,12 +85,20 @@ Useful:
 - tactile materials
 - coherent single-source lighting
 - intentional negative space
+- one memorable silhouette
+- typography integrated into composition
 
-Less useful by itself:
+Weak by itself:
 - beautiful
 - amazing
 - professional
 - cool
 - modern
 
-These adjectives need concrete art-direction instructions around them.
+These adjectives need concrete art-direction decisions around them.
+
+## Final test
+
+Before sending the internal generation instruction, remove every sentence that merely restates the source brief.
+
+What remains should describe **the image**, not the document.
