@@ -88,10 +88,13 @@ human-social-designer/
     ├── anti-patterns.md
     ├── poster-modes.md
     ├── arabic-typography.md
-    └── prompt-cookbook.md
+    ├── prompt-cookbook.md
+    └── reference-analysis.md
 ```
 
 The SVG examples are **concept diagrams / art-direction references**, not templates to copy literally. Their purpose is to show how one idea, one focal point, and minimal copy can outperform an overloaded flyer.
+
+The reference documents provide the decision system behind the skill: what to reject, how to choose a poster mode, how to treat Arabic typography, how to build a generation prompt, and how to analyze inspiration without copying it.
 
 ## Example invocation
 
