@@ -1,135 +1,73 @@
 # Human Social Designer
 
-A concept-first ChatGPT skill for creating **one polished social-media visual at a time** with the judgment of a human art director.
+A concept-first ChatGPT skill for creating **one premium social-media key visual at a time** with the judgment of a senior human art director.
 
-The skill is built for users who do not want generic “AI poster” aesthetics. Instead of starting from effects, it starts from the communication problem: What is the message? What should the viewer notice first? What is the strongest visual metaphor? Which words deserve emphasis? What can be removed?
+This repository is designed for users who want social images that feel like **Pinterest-worthy editorial posters, conceptual advertising, cultural campaigns, sophisticated brand key visuals, and modern Arabic art direction** — not generic AI posters or dense information flyers.
 
-The intended result is a social post that feels **designed**, not merely generated.
+## What changed in v2
 
-## What makes this skill different
+Version 2 shifts the default behavior from “make a nice social poster” to:
 
-Most image prompts describe objects and visual styles. Human Social Designer adds an art-direction layer before generation.
+> **distill the brief → invent one visual metaphor → suppress information → compose one hero → use minimal typography → generate one memorable image**
 
-It deliberately controls:
+This means a hackathon brief with ten facts no longer automatically becomes ten icons and six boxes. A workshop brief no longer automatically becomes a student with a laptop. An AI topic no longer automatically becomes a robot.
 
-- concept and visual metaphor
-- hierarchy
-- focal point
-- whitespace
-- text/image relationship
-- Arabic typography behavior
-- visual density
-- palette discipline
-- realism and lighting
-- platform format
-- brand consistency
-- what *not* to include
+The default is now **Conceptual Key Visual Mode**.
 
-The default output is **one final image**, not a gallery of half-resolved options.
+## Core philosophy
 
-## Designed for
+**Idea first. Composition second. Typography third. Effects last.**
 
-- social-media announcements
-- workshops
-- hackathons
-- competitions
-- scholarships
-- AI and robotics news
-- educational posts
+The skill silently reduces every brief to:
+
+- one core message
+- one emotional idea
+- one metaphor
+- one hero object / scene
+- one short headline
+
+Then it removes anything that does not earn its place.
+
+## What the skill deliberately avoids
+
+- generic “AI startup” visuals
+- people with laptops as a universal solution
+- floating app icons
+- glowing brains
+- robot-human handshakes
+- glass cards for decoration
+- excessive cyan/purple neon
+- random particles
+- dense event flyers by default
+- walls of text
+- icon grids where a visual idea should exist
+- multiple focal points
+- literal illustration of every bullet in a brief
+
+## What it aims for instead
+
+- strange but intelligent imagery
+- one unmistakable hero
+- editorial negative space
+- sculptural / architectural / photographic art direction
+- controlled surrealism
+- strong Arabic display typography
+- short copy
+- coherent color atmosphere
+- memorable silhouette
+- professional human authorship
+
+## Typical use cases
+
+- Instagram / Telegram / Facebook campaign posts
+- hackathon and workshop promotion
+- AI / robotics / engineering news visuals
+- opportunities and scholarships
 - awareness campaigns
-- quote and idea posts
-- editorial visual stories
+- editorial quote posts
 - brand announcements
-- technology campaigns
-- event posters
-- program promotions
-- Telegram / Instagram / Facebook / LinkedIn creatives
-
-## Design philosophy
-
-The central rule is:
-
-> **Idea first. Composition second. Typography third. Effects last.**
-
-A successful post should usually be explainable as one strong visual sentence.
-
-Examples:
-
-- “An idea literally breaks through the box labeled ‘the familiar.’”
-- “A robot hand intentionally knocks over a chess piece to represent learning through mistakes.”
-- “A procrastination post is staged as a comfortable room filled with physical excuses rather than a generic clock icon.”
-
-The skill avoids adding visual elements merely because they look expensive or futuristic.
-
-## Human-made look
-
-The skill actively avoids common AI-poster clichés:
-
-- glowing robot heads
-- generic brains with circuits
-- random floating UI
-- excessive cyan-purple neon
-- meaningless microcopy
-- unnecessary 3D spheres
-- visually equal clutter everywhere
-- dozens of explanatory icons
-- random particles and light streaks
-- decorative cards without information hierarchy
-- repeated center-object poster templates
-
-Instead, it uses restraint, intentional imbalance, negative space, editorial structure, and meaningful visual interaction.
-
-## Arabic-first capability
-
-Human Social Designer is particularly suited to Arabic social design.
-
-It treats Arabic typography as a visual component rather than simply placing Arabic text over an image. Depending on the concept, the headline can:
-
-- stack vertically
-- change scale between words
-- interact with an object
-- appear partially occluded
-- become a physical part of the concept
-- use outline vs solid contrast
-- occupy negative space
-- create rhythm through line breaks
-
-The skill favors short, visually strong Arabic headlines and avoids dense generated paragraphs inside images.
-
-## Default output behavior
-
-When the user gives a usable brief, the skill should:
-
-1. understand the message
-2. choose the strongest concept internally
-3. determine hierarchy and art direction
-4. generate one image directly
-5. avoid long explanations unless requested
-
-It should not force the user through a design questionnaire when sensible professional assumptions can be made.
-
-## Example usage
-
-```text
-@human-social-designer
-صمم لي منشور عن ورشة ذكاء اصطناعي للطلاب. أريد عنوانًا عربيًا قصيرًا، وفكرة قوية، ولا أريد الشكل التقني التقليدي.
-```
-
-```text
-@human-social-designer
-حوّل هذا الخبر إلى صورة سوشال ميديا واحدة، 4:5، بهوية تحريرية قوية:
-[news text]
-```
-
-```text
-@human-social-designer
-أنشئ بوستر لهاكاثون أونلاين. المعلومات الضرورية: التسجيل مجاني، الموعد 3–10 أكتوبر، والتسليم على Devpost.
-```
-
-```text
-@human-social-designer
-صمم منشورًا عن التسويف. لا تستخدم ساعة عملاقة فقط؛ أريد فكرة أذكى وتحكي قصة بصرية.
-```
+- social campaign key visuals
+- premium Arabic poster design
 
 ## Repository structure
 
@@ -138,21 +76,55 @@ human-social-designer/
 ├── SKILL.md
 ├── README.md
 ├── LICENSE
+├── examples/
+│   ├── README.md
+│   ├── 01-portal-opportunity.svg
+│   ├── 02-time-cuts.svg
+│   └── 03-mistake-chess.svg
 └── references/
     ├── design-philosophy.md
     ├── concept-playbook.md
-    └── quality-checklist.md
+    ├── quality-checklist.md
+    ├── anti-patterns.md
+    ├── poster-modes.md
+    ├── arabic-typography.md
+    └── prompt-cookbook.md
 ```
 
-`SKILL.md` is the actual skill instruction file. The reference documents expand the skill's design vocabulary and quality controls.
+The SVG examples are **concept diagrams / art-direction references**, not templates to copy literally. Their purpose is to show how one idea, one focal point, and minimal copy can outperform an overloaded flyer.
 
-## Installation / importing
+## Example invocation
 
-This repository is structured as a ChatGPT-style skill repository, with `SKILL.md` at the root.
+```text
+@human-social-designer
+صمم لي منشور عن ورشة ذكاء اصطناعي للطلاب. أريد صورة غريبة وذكية، أقل قدر ممكن من الكلام، وبدون روبوتات أو لابتوبات بشكل مبتذل.
+```
 
-Creating the repository alone does **not** automatically make it appear in the Skills page. Use the **+** control in the Skills interface and import/add the skill from the repository or package according to the options available in your ChatGPT UI.
+```text
+@human-social-designer
+حول هذا الهاكاثون إلى key visual واحد. لا أريد كل الشروط داخل التصميم؛ اختر أقوى فكرة واكتب فقط العنوان ومعلومة واحدة أساسية.
+```
 
-After it is installed, invoke it as:
+```text
+@human-social-designer
+صمم بوستر عن التسويف بأسلوب Pinterest احترافي. استخدم مشهدًا واحدًا غريبًا بدل مجموعة أيقونات.
+```
+
+## The key difference
+
+A normal poster generator asks:
+
+> “What objects belong to this topic?”
+
+Human Social Designer asks:
+
+> **“What one image would make this message unforgettable?”**
+
+## Installation
+
+The actual skill instruction is in `SKILL.md` at the repository root.
+
+After importing / installing the repository as a ChatGPT skill, invoke it as:
 
 ```text
 @human-social-designer
@@ -160,7 +132,7 @@ After it is installed, invoke it as:
 
 ## Version
 
-Current skill version: **1.0.0**
+**2.0.0**
 
 ## License
 
