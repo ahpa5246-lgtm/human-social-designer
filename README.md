@@ -1,73 +1,67 @@
 # Human Social Designer
 
-A concept-first ChatGPT skill for creating **one premium social-media key visual at a time** with the judgment of a senior human art director.
+A strict concept-first ChatGPT skill for creating **one premium social-media key visual at a time** with the judgment of a senior human art director.
 
-This repository is designed for users who want social images that feel like **Pinterest-worthy editorial posters, conceptual advertising, cultural campaigns, sophisticated brand key visuals, and modern Arabic art direction** — not generic AI posters or dense information flyers.
+Version 3 is intentionally opinionated. It is designed to prevent the exact failure mode of dense AI-generated event flyers: title + paragraphs + icon grids + students + futuristic city + CTA + every fact in the brief.
 
-## What changed in v2
+## v3 default behavior
 
-Version 2 shifts the default behavior from “make a nice social poster” to:
-
-> **distill the brief → invent one visual metaphor → suppress information → compose one hero → use minimal typography → generate one memorable image**
-
-This means a hackathon brief with ten facts no longer automatically becomes ten icons and six boxes. A workshop brief no longer automatically becomes a student with a laptop. An AI topic no longer automatically becomes a robot.
-
-The default is now **Conceptual Key Visual Mode**.
-
-## Core philosophy
-
-**Idea first. Composition second. Typography third. Effects last.**
-
-The skill silently reduces every brief to:
+Every brief is reduced to:
 
 - one core message
 - one emotional idea
-- one metaphor
-- one hero object / scene
+- one visual metaphor
+- one dominant hero object / scene
 - one short headline
+- almost no secondary copy
 
-Then it removes anything that does not earn its place.
+Then the skill generates **one final image directly**.
 
-## What the skill deliberately avoids
+The default is **Conceptual Key Visual Mode**, not an informational flyer.
 
-- generic “AI startup” visuals
-- people with laptops as a universal solution
-- floating app icons
-- glowing brains
-- robot-human handshakes
-- glass cards for decoration
-- excessive cyan/purple neon
-- random particles
-- dense event flyers by default
-- walls of text
-- icon grids where a visual idea should exist
-- multiple focal points
-- literal illustration of every bullet in a brief
+## Hard rule
 
-## What it aims for instead
+Unless the user explicitly asks for a detailed information poster or infographic, the image should NOT contain:
 
-- strange but intelligent imagery
+- track lists
+- requirements lists
+- benefits grids
+- certificate modules
+- tool lists
+- multiple CTAs
+- rows of icons
+- long paragraphs
+- every fact from the source brief
+
+Those details belong in the caption.
+
+## What it aims for
+
+- unusual but intelligent imagery
 - one unmistakable hero
 - editorial negative space
-- sculptural / architectural / photographic art direction
+- strong silhouette
+- sculptural / photographic / architectural / illustrative art direction chosen per brief
 - controlled surrealism
-- strong Arabic display typography
-- short copy
-- coherent color atmosphere
-- memorable silhouette
-- professional human authorship
+- beautiful Arabic display typography
+- one coherent color world
+- minimal copy
+- Pinterest-worthy campaign quality
 
-## Typical use cases
+## What it rejects
 
-- Instagram / Telegram / Facebook campaign posts
-- hackathon and workshop promotion
-- AI / robotics / engineering news visuals
-- opportunities and scholarships
-- awareness campaigns
-- editorial quote posts
-- brand announcements
-- social campaign key visuals
-- premium Arabic poster design
+- generic AI-startup visuals
+- students + laptops as universal shorthand
+- groups staring at a glowing future
+- futuristic cities by default
+- portals by default
+- robots merely because the topic is AI
+- icon grids
+- glass cards
+- glowing brains
+- random particles
+- walls of text
+- literal illustration of every bullet
 
 ## Repository structure
 
@@ -78,7 +72,6 @@ human-social-designer/
 ├── LICENSE
 ├── examples/
 │   ├── README.md
-│   ├── 01-portal-opportunity.svg
 │   ├── 02-time-cuts.svg
 │   └── 03-mistake-chess.svg
 └── references/
@@ -89,53 +82,35 @@ human-social-designer/
     ├── poster-modes.md
     ├── arabic-typography.md
     ├── prompt-cookbook.md
-    └── reference-analysis.md
+    ├── reference-analysis.md
+    └── failure-analysis.md
 ```
 
-The SVG examples are **concept diagrams / art-direction references**, not templates to copy literally. Their purpose is to show how one idea, one focal point, and minimal copy can outperform an overloaded flyer.
-
-The reference documents provide the decision system behind the skill: what to reject, how to choose a poster mode, how to treat Arabic typography, how to build a generation prompt, and how to analyze inspiration without copying it.
+The SVG files are visual studies only. They are **not literal prompt templates** and should never be mechanically reused.
 
 ## Example invocation
 
 ```text
 @human-social-designer
-صمم لي منشور عن ورشة ذكاء اصطناعي للطلاب. أريد صورة غريبة وذكية، أقل قدر ممكن من الكلام، وبدون روبوتات أو لابتوبات بشكل مبتذل.
+حول هذا المنشور إلى key visual واحد. أريد فكرة غريبة وذكية، عنوانًا قصيرًا فقط، ولا تضع التفاصيل في الصورة.
 ```
 
 ```text
 @human-social-designer
-حول هذا الهاكاثون إلى key visual واحد. لا أريد كل الشروط داخل التصميم؛ اختر أقوى فكرة واكتب فقط العنوان ومعلومة واحدة أساسية.
+صمم بوستر عن التسويف بأسلوب editorial / Pinterest. استخدم مشهدًا واحدًا غير متوقع ولا تستخدم أيقونات أو قوائم.
 ```
 
-```text
-@human-social-designer
-صمم بوستر عن التسويف بأسلوب Pinterest احترافي. استخدم مشهدًا واحدًا غريبًا بدل مجموعة أيقونات.
-```
+## Important: updating the GitHub repo vs updating the installed skill
 
-## The key difference
+Editing this GitHub repository does **not necessarily refresh an already imported/installed copy of the skill** inside ChatGPT.
 
-A normal poster generator asks:
+After a major repository update, re-import / reinstall / refresh the skill from the repository in the Skills UI so ChatGPT loads the current `SKILL.md`.
 
-> “What objects belong to this topic?”
-
-Human Social Designer asks:
-
-> **“What one image would make this message unforgettable?”**
-
-## Installation
-
-The actual skill instruction is in `SKILL.md` at the repository root.
-
-After importing / installing the repository as a ChatGPT skill, invoke it as:
-
-```text
-@human-social-designer
-```
+If an old result still behaves like a dense flyer after v3, first verify that the installed skill has been refreshed.
 
 ## Version
 
-**2.0.0**
+**3.0.0**
 
 ## License
 
