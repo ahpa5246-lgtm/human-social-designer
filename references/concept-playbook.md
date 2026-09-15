@@ -1,176 +1,219 @@
 # Concept Playbook
 
-Use this reference to escape generic social-media compositions. Select only the device that strengthens the message.
+Use this file to escape generic category imagery. Select one device that expresses the message most directly.
 
-## A. Object as metaphor
+## 1. Transformation
 
-Choose one familiar object and change its behavior.
-
-Examples:
-
-- light bulb breaking out of a wooden crate → unconventional idea
-- chess piece being deliberately knocked over → mistakes as learning
-- key that is also a cursor → digital access
-- seed growing through a circuit board → technology enabling growth
-
-Best for: ideas, education, innovation, awareness.
-
-## B. Typography as physical object
-
-Make one key word interact with the scene.
-
-Possible treatments:
-
-- letters crack
-- word is folded
-- object passes through the word
-- word casts a real shadow
-- letters become a wall, doorway, rope, frame, or surface
-- one word breaks alignment intentionally
-
-Use only when readability can be preserved.
-
-## C. Scale contradiction
-
-Make something conceptually important physically oversized or unexpectedly tiny.
+Take one familiar object and change what it does.
 
 Examples:
+- paper ticket becomes a bridge
+- calendar page becomes a blade
+- chess piece becomes a doorstop preventing closure
+- cable grows like a vine through concrete
 
-- tiny student facing a giant interface
-- enormous “deadline” calendar page looming over a desk
-- small robot holding an oversized question mark
+Use when the message involves change, progress, learning, disruption, or reframing.
 
-Good for urgency and conceptual drama.
+## 2. Contradiction
 
-## D. Prop-based storytelling
+Place two ideas in one physically impossible but immediately readable relationship.
 
-Build a scene from real-world props that reveal behavior.
+Examples:
+- fragile glass holding a massive weight
+- tiny doorway opening to monumental scale
+- calm figure carrying a dangerous symbol of urgency
 
-Useful for topics such as procrastination, studying, productivity, student life, and creators.
+Use when the message contains tension.
+
+## 3. Threshold / Portal
+
+Use architecture to represent transition.
+
+Best for:
+- opportunities
+- competitions
+- programs
+- scholarships
+- career transitions
+- “next step” messaging
+
+Avoid filling the destination with generic futuristic-city detail. The threshold itself is the metaphor.
+
+## 4. Typographic intervention
+
+Let one key word become part of the physical scene.
+
+Possible behaviors:
+- fractures
+- folds
+- casts a shadow
+- becomes a wall
+- object passes through it
+- one line continues into the architecture
+
+Rule: one typographic intervention per poster.
+
+## 5. Scale contradiction
+
+Make conceptual importance visible through size.
+
+Examples:
+- one tiny figure facing a monumental choice
+- enormous tool dwarfing its user
+- microscopic obstacle shown as a landscape
+
+Use sparingly. The scale difference should carry meaning.
+
+## 6. Controlled surrealism
+
+Create one impossible relationship and stage it convincingly.
+
+Examples:
+- head replaced by a clock
+- staircase emerging from a folded page
+- shadow showing a different object than the source
+
+Do not stack multiple surreal tricks.
+
+## 7. Material metaphor
+
+Use the physical behavior of material to express meaning.
+
+Examples:
+- rigid metal becoming fluid
+- paper tearing into a path
+- stone cracking to reveal light
+- thread stitching two incompatible surfaces together
+
+Material can be more original than topic icons.
+
+## 8. Negative-space reveal
+
+Make absence form the message.
+
+Examples:
+- keyhole shape created by two objects
+- missing piece defining the focal point
+- light gap creating an arrow without drawing one
+
+Best for premium minimal work.
+
+## 9. Prop story
+
+Use a few real objects as evidence of behavior.
+
+Best for:
+- procrastination
+- creator habits
+- study behavior
+- work culture
 
 Rules:
+- one central subject
+- props must tell story
+- no filler
+- no equal-weight clutter
 
-- props must reveal the story
-- avoid random filler
-- create one main subject and supporting evidence
-- written notes may add personality but should be sparse and readable
+## 10. Visual pun
 
-## E. Editorial negative space
+Use a linguistic phrase literally, but elegantly.
 
-Use fewer objects and allow the layout to breathe.
+Good when:
+- the phrase is short
+- the physical interpretation is immediate
+- the result is not cartoonish unless desired
 
-Characteristics:
+Example logic:
+“الوقت كسيف” → time + blade relationship.
 
-- large margins
-- one hero image
-- strong type scale
-- tiny metadata
-- controlled color
-- magazine-like balance
+## 11. Before/after without split-screen
 
-Best for premium brands, thoughtful topics, and research/education.
-
-## F. Framing device
-
-Use a visual frame, arch, crop, window, circle, doorway, monitor, page, or spotlight to isolate the hero.
-
-The frame should direct attention, not become decoration.
-
-## G. Before/after without split screen
-
-Show transformation in a single image instead of a cliché 50/50 split.
+Show transformation continuously inside one object or environment.
 
 Examples:
+- rough surface resolving into polished structure
+- hand sketch becoming architecture along one line
+- fragmented letters becoming coherent form
 
-- one object physically transitioning from rough to polished
-- handwritten sketch becoming a finished model across one continuous surface
-- broken pixels resolving into a clear object
+Avoid cliché 50/50 division.
 
-## H. Controlled surrealism
+## 12. Shadow / reflection discrepancy
 
-A physically impossible scene can work if it expresses one simple idea.
+Let the shadow or reflection reveal a hidden meaning.
 
 Examples:
+- ordinary object casts ambitious silhouette
+- machine reflection appears organic
+- small figure’s shadow becomes monumental
 
-- staircase emerging from an open book
-- code turning into a physical bridge
-- cloud of ideas contained inside a transparent object
+Use for identity, potential, hidden capability, aspiration.
 
-Avoid surrealism for its own sake.
+## 13. Cropping as meaning
 
-## I. Human + technology relationship
+Sometimes the image becomes stronger by showing only part of the subject.
 
-When depicting AI or robotics, avoid generic robot portraits.
+Use extreme crop when:
+- scale matters
+- mystery helps
+- object silhouette is recognizable
+- negative space becomes stronger
 
-Prefer interaction:
+## 14. Editorial object-as-sculpture
 
-- handoff
-- collaboration
-- correction
-- observation
+Treat one object like a museum piece / campaign sculpture.
+
+Useful when the topic is abstract and does not need narrative action.
+
+The object should be transformed enough to carry meaning, not simply displayed.
+
+## 15. Architectural impossibility
+
+Use one impossible room, arch, staircase, corridor, or opening.
+
+Works well for:
 - learning
-- assistance
-- negotiation
+- growth
+- opportunity
+- ambition
+- uncertainty
 
-This creates a story rather than a technology icon.
+Keep the architecture simple enough to read as one shape.
 
-## J. Information architecture poster
+## 16. Word-first ideation
 
-Use when there is real information: tracks, benefits, date, requirements.
+Pick the conceptual verb, not the topic noun.
 
-Structure:
+Instead of:
+- AI
+- education
+- career
 
-1. Hero headline
-2. Visual anchor
-3. 2–4 grouped information modules
-4. CTA / date / URL
+Find:
+- break
+- cross
+- reveal
+- fall
+- hold
+- connect
+- cut
+- grow
+- shift
+- open
 
-Do not let the modules overpower the hero.
+Then ask:
 
-## K. Word-driven concept
+> If this verb became a physical action, what would happen?
 
-Sometimes the strongest design begins with one word.
+This often produces better art direction.
 
-Choose a word with physical potential:
+## Selection test
 
-- كسر
-- عبور
-- بداية
-- خطأ
-- فرصة
-- بناء
-- اتصال
-- رؤية
-- أثر
-
-Then ask: “If this word were an object or action, what would it do?”
-
-That answer can become the entire visual concept.
-
-## L. Contrast pairs
-
-Useful pairings:
-
-- analog / digital
-- rigid / fluid
-- heavy / light
-- quiet / loud
-- old / future
-- natural / mechanical
-- small / monumental
-- precise / chaotic
-- hidden / revealed
-
-Choose one pair, not several.
-
-## Choosing the right device
-
-Ask:
-
-- Does it communicate in under two seconds?
-- Is it culturally understandable?
-- Can it be executed with one clear hero?
-- Will it still work on a phone screen?
-- Does it avoid a cliché for this topic?
+Before choosing a device, ask:
+- Can the concept be understood in under two seconds?
+- Is the relationship more specific than a category cliché?
+- Can it work with one hero?
+- Does it survive without text?
+- Does it work at phone size?
+- Can it be staged in one coherent visual world?
 
 If yes, proceed.
