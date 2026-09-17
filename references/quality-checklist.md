@@ -11,6 +11,8 @@ Run this silently before finalizing any image.
 
 ## B. Concept
 
+- [ ] Three candidates using different visual mechanisms were considered for an original request.
+- [ ] The obvious category answer was explicitly quarantined.
 - [ ] The concept can be described in one short sentence.
 - [ ] There is one metaphor / relationship, not several competing metaphors.
 - [ ] The visual is more specific than a generic symbol.
@@ -117,3 +119,11 @@ Then:
 > “Could removing one thing make it stronger?”
 
 If yes, simplify before generation.
+
+## M. Generated-output diagnosis
+
+- [ ] The actual output was inspected rather than inferred from the prompt.
+- [ ] Message, metaphor, subject, hierarchy, Style DNA, type, brand, and thumbnail behavior were checked.
+- [ ] An execution defect receives one targeted retry that preserves successful parts.
+- [ ] A generic, literal, stock-like, or text-dependent result is treated as a concept defect.
+- [ ] A concept defect causes a new concept, not a longer repair prompt.
