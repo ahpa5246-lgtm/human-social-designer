@@ -2,7 +2,23 @@
 
 A professional ChatGPT skill for creating **one polished social-media image at a time** using the judgment of a senior art director plus the discipline of real design systems.
 
-## Version 8: one sentence becomes one scene
+## Version 9: concept-first generation loop
+
+Version 9 turns the skill into a complete internal art-direction pipeline:
+
+**Extract → Diverge → Select → Compile → Generate → Inspect → Repair or Re-concept**
+
+- **Extract** one pivotal sentence and one drawable tension.
+- **Diverge** into three concepts that use different visual mechanisms.
+- **Select** the least generic, most brief-specific relationship.
+- **Compile** one focused prompt from meaning to metaphor, composition, and Style DNA.
+- **Generate** one final image with the host image tool.
+- **Inspect** the actual output for concept, hierarchy, style, typography, and brand fidelity.
+- **Repair** one execution defect precisely—or abandon a generic concept and regenerate from a new mechanism.
+
+The mandatory visual-style question remains in place. The selected style is now expanded into observable Style DNA instead of being passed to the generator as a loose label.
+
+## Foundation: one sentence becomes one scene
 
 The key rule is now:
 
@@ -121,6 +137,9 @@ human-social-designer/
     ├── density-and-mode-routing.md
     ├── concept-playbook.md
     ├── quality-checklist.md
+    ├── style-dna.md
+    ├── prompt-compiler.md
+    ├── influences-and-licenses.md
     ├── anti-patterns.md
     ├── poster-modes.md
     ├── arabic-typography.md
@@ -153,7 +172,7 @@ After major updates, re-import / refresh the skill from this repository so the i
 
 ## Version
 
-**8.0.0**
+**9.0.0**
 
 ## License
 
