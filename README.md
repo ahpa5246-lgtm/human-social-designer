@@ -2,15 +2,26 @@
 
 A professional ChatGPT skill for creating **one polished social-media image at a time** using the judgment of a senior art director plus the discipline of real design systems.
 
-## Version 5: concept-first, not minimalism-first
+## Version 8: one sentence becomes one scene
 
 The key rule is now:
 
-> **Concept decides density.**
+> **One pivotal sentence becomes one unified visual event.**
 
-The skill no longer assumes that every strong design must be sparse, and it no longer assumes that every long brief should become a dense flyer.
+The skill extracts the article's strongest drawable sentence, translates it into one physical action, and removes every object whose deletion would not weaken that action.
 
-Instead, it chooses the right design mode first, then applies real design principles.
+A scene may contain several figures when plurality is essential—such as agents fighting inside one arena—but they must act as one ensemble inside one composition. Richness is measured by semantic necessity, not by object count.
+
+## Visual-compression rules
+
+- the article is research material, not a canvas checklist
+- one pivotal sentence, one scene, one action
+- supporting facts influence tone; they do not become separate props
+- every visible object must be necessary to the central action
+- several figures are allowed only when they form one collective event
+- light has a motivated source and guides hierarchy
+- expressive illustration, graphic shapes, and painterly texture are preferred over generic glossy 3D when appropriate
+- coffee, books, laptops, icons, cards, and particles never appear as filler
 
 ## What it combines
 
@@ -142,7 +153,7 @@ After major updates, re-import / refresh the skill from this repository so the i
 
 ## Version
 
-**5.0.0**
+**8.0.0**
 
 ## License
 
