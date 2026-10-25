@@ -1,5 +1,33 @@
 # Human Social Designer
 
+## Download, setup and project overview
+
+An art-direction skill for producing brief-specific social imagery.
+
+Concept selection; style DNA; prompt compilation; inspection and revision.
+
+![Project workflow illustration](docs/project-overview.svg)
+
+[Download source ZIP](https://github.com/ahpa5246-lgtm/human-social-designer/archive/refs/heads/main.zip) · [Changes and branches](https://github.com/ahpa5246-lgtm/human-social-designer/branches) · [Verification notes](docs/QUALITY_REVIEW.md)
+
+The ZIP contains source code. Installation steps and external runtime requirements are listed below.
+
+```bash
+git clone https://github.com/ahpa5246-lgtm/human-social-designer.git
+cd human-social-designer
+```
+
+From the repository directory:
+
+```text
+# Add this folder to an Agent Skills-compatible environment.
+# Start by reading SKILL.md.
+python -m unittest discover -s tests -v
+```
+
+The diagram is a project illustration. Test results and runtime limitations are recorded in [the review](docs/QUALITY_REVIEW.md); it is not a production-readiness certification.
+
+
 A professional ChatGPT skill for creating **one polished social-media image at a time** using the judgment of a senior art director plus the discipline of real design systems.
 
 ## Version 9: concept-first generation loop
@@ -177,3 +205,4 @@ After major updates, re-import / refresh the skill from this repository so the i
 ## License
 
 MIT
+
